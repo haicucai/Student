@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+
+        />
+<TextView
+    android:id="@+id/tvhoten"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etquequan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập quê quán"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etngaysinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập dd/mm/yy"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etgioitinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập giới tính"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lớp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <EditText
+        android:id="@+id/etkhoahoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập khóa học"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next StudentInforActivity"
+        android:layout_marginLeft="63dp"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>
